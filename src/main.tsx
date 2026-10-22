@@ -1,4 +1,5 @@
 import './styles.css';
+import './typography.css';
 // Production HTML is pre-rendered: load interaction code after the first paint.
 let loaded:Promise<unknown>|undefined;
 let interactive=false;

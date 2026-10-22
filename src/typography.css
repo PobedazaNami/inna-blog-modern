@@ -1,0 +1,68 @@
+/* Mobile and desktop reading scale: content 16/24, secondary 14/20,
+   captions 12/16, controls 14–16. Font sizes remain zoomable. */
+.hero-bonus p,.section-heading>p,.method-points p,.bonus-card p,.audience-card p,.author-lead,.achievement-grid p,.story-content p,.day-text,.gift p,.mission-text p,.results-action p,.guarantee-grid article p,.steps-grid p,.faq-item button,.faq-item p{font-size:1rem;line-height:1.5}
+.button,.hero-actions .button,.program-action .button,.final-action .button{font-size:.9375rem;line-height:1.4}
+.header-row nav,.header-cta,.footer-top nav,.back-top{font-size:.875rem;line-height:1.45}
+.hero-eyebrow,.section-label,.tiny-tag,.eyebrow,.hero-bottom,.hero-strip,.author-photo-label,.lesson-format,.guarantee-grid small,.footer-bottom,.hero-price>span,.countdown>span,.hero-mini-pill,.portrait-name>span,.portrait-index,.photo-top-tag,.floating-card span,.card-number,.method-points>div>span,.achievement-grid article>span,.gift .eyebrow,.result-index,.guarantee-title>span:last-child,.final-action>span,.zoom-label,.footer-bottom a,.art-node,.art-caption,.duration-tag{font-size:.75rem;line-height:1.35;letter-spacing:.5px}
+.countdown b{font-size:.875rem;line-height:1.4;letter-spacing:1px}
+.floating-card strong,.author-stat p,.program-action s,.final-action s,.review-counter span{font-size:.875rem;line-height:1.45}
+.day-tab>span:not(.active-day){font-size:.75rem;line-height:1.35}
+.day-tab strong{font-size:.9375rem;line-height:1.4}
+.hero h1{font-size:clamp(62px,6.1vw,88px);letter-spacing:-4px}
+.hero-copy{padding-block:26px}.hero-visual .portrait-frame{min-height:650px}
+.hero-actions{flex-wrap:wrap}.hero-price>span{white-space:nowrap}
+.gift{align-items:flex-start}.gift>svg{margin-top:12px}
+.author-stat{flex-wrap:wrap}.author-stat strong span{font-size:1rem;letter-spacing:0}
+.guarantee-title{flex-wrap:wrap}.guarantee-title h3{flex:1;min-width:160px}
+.step-index{color:#65745c}.section-label>span,.card-number,.method-points>div>span,.result-index,.program-action s,.footer-bottom{color:#56634d}
+.mission .section-label>span{color:#c7d2bd}
+@media(max-width:800px){
+ .hero h1{font-size:clamp(58px,12vw,80px)}
+ .hero-bonus p{font-size:.875rem;line-height:1.45}
+ .hero-visual .portrait-frame{min-height:0;height:480px}
+ .section-label{font-size:.75rem}
+ .header-cta{font-size:.8125rem;gap:10px}
+ .header-row nav{font-size:.8125rem;gap:18px}
+ .hero-bottom{flex-wrap:wrap;gap:10px}
+ .hero-strip{align-items:flex-start}
+ .photo-top-tag{font-size:.6875rem}
+ .floating-card span{font-size:.6875rem}
+ .day-tab strong{font-size:.875rem}
+ .mission-price>span{font-size:.75rem}
+}
+@media(max-width:600px){
+ .hero h1{font-size:clamp(50px,11.5vw,68px);letter-spacing:-3px}
+ .hero-subtitle{font-size:1.25rem;line-height:1.5}
+ .hero-actions{gap:16px;align-items:center}
+ .hero-actions .button{font-size:.875rem;padding:14px 16px;gap:16px;flex:1 1 190px}
+ .hero-price{flex:0 0 auto}.hero-price strong{font-size:1.75rem}
+ .hero-price>span{font-size:.75rem}
+ .hero-eyebrow{font-size:.6875rem;gap:9px;letter-spacing:.4px;flex-wrap:wrap}
+ .hero-mini-pill{font-size:.6875rem}
+ .countdown{gap:12px;flex-wrap:wrap}.countdown>span{font-size:.75rem}
+ .hero-strip{font-size:.75rem;gap:20px;flex-direction:column}.hero-strip>span,.hero-strip span:last-child{max-width:none}
+ .portrait-frame{height:410px}.hero-visual .portrait-frame{height:410px}
+ .portrait-index,.portrait-name>span{font-size:.6875rem}
+ .floating-card{max-width:260px;bottom:125px}.floating-card strong{font-size:.875rem}
+ .photo-top-tag{font-size:.625rem}.photo-top-tag .status-dot{box-shadow:none}
+ .section-heading>p{font-size:1rem;line-height:1.5}
+ .method-card h3{font-size:1.125rem;line-height:1.5}
+ .audience-card h3{font-size:1.3125rem}.audience-card p{font-size:1rem;line-height:1.5}
+ .achievement-grid{grid-template-columns:1fr;gap:22px}.achievement-grid p{font-size:1rem;line-height:1.5}
+ .author-stat{gap:20px}.author-stat strong{font-size:3rem}.author-stat p{font-size:.875rem}
+ .story-details summary{font-size:.875rem;line-height:1.5;gap:18px}
+ .day-tab{min-height:82px;padding:13px 12px}.day-tab strong{font-size:.875rem}.day-tab>span:not(.active-day){font-size:.75rem}
+ .day-text{font-size:1rem;line-height:1.5;min-height:0}.lesson-format{font-size:.75rem;align-items:flex-start;line-height:1.5}
+ .lesson-format .status-dot{margin-top:5px}.gift p{font-size:1rem;line-height:1.5}
+ .program-action{flex-direction:column;align-items:stretch;gap:18px}.program-action>div{display:flex;align-items:center;gap:14px}.program-action s{margin:0}.program-action .button{font-size:.9375rem;padding-inline:20px}
+ .mission-text p,.guarantee-grid article p,.steps-grid p,.faq-item button,.faq-item p{font-size:1rem;line-height:1.5}
+ .mission-text .mission-last{font-size:1rem;line-height:1.5}.mission-price>span{font-size:.75rem}
+ .result-card p{font-size:1rem;line-height:1.5}.results-action p{font-size:.875rem;line-height:1.45}
+ .review-counter span{font-size:.75rem}.review-dots{gap:0}.review-dots button{width:24px;height:24px}
+ .guarantee-grid small{font-size:.75rem;line-height:1.5}.guarantee-title h3{font-size:1.1875rem}.guarantee-title>span:last-child{display:none}
+ .steps-grid h3{font-size:1.25rem;line-height:1.4}.faq-item button{gap:18px}.faq-item button>span{flex-shrink:0}
+ .final-card p{font-size:.875rem;line-height:1.45}.final-action>span{font-size:.75rem}.final-action .button{font-size:.9375rem}
+ .footer-top nav{font-size:.875rem;flex-wrap:wrap;gap:8px 20px;justify-content:flex-start}
+ .footer-bottom,.footer-bottom a{font-size:.75rem;line-height:1.5}.footer-bottom>div{gap:5px 18px}
+ .mobile-cta span{font-size:.9375rem}.mobile-cta b{font-size:1.125rem}.header-cta{font-size:.75rem}
+}
